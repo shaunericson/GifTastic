@@ -65,7 +65,7 @@ $(document.body).on("click", ".menu-item", function () {
     // console.log(giphyToggle);
 
     $.ajax({
-        url: "http://api.giphy.com/v1/gifs/search?q=" + q +
+        url: "https://api.giphy.com/v1/gifs/search?q=" + q +
             "&api_key=FMbq2Vtj5T4zKhfSVr9wDCL3ttYknL1H&limit=10",
         method: "GET"
     }).then(function (res) {
