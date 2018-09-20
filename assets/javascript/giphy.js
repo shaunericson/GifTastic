@@ -117,7 +117,7 @@ $(document.body).on("click", ".menu-item", function () {
 
             // Create DIV
             var d = $("<div>");
-            d.attr("class", "col-4");
+            d.attr("class", "col-lg-4");
             d.append(p);
             d.append(i);
             $("#giphyPics").append(d);
